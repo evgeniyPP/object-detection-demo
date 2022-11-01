@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Object Detection Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd" defer></script>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tensorflow Object Detection Demo</h1>
+      <p class="result">Prediction: <span class="result-value">N/A</span></p>
+      <div class="embed">
+        <video></video>
+      </div>
+      <button>Enable Webcam</button>
+    </div>
+  </body>
+</html>
